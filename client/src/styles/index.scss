@@ -1,0 +1,89 @@
+.login__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #10141a;
+  padding: 1em;
+}
+.login__container__form {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  border-radius: 10px;
+  background-color: #242933;
+  width: 100%;
+  max-width: 450px;
+  align-items: center;
+}
+.login__container__form__logo {
+  margin-bottom: 1em;
+}
+.login__container__form__heading {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+.login__container__form__input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 0em 1em;
+  background-color: #10141a;
+  border: none;
+  font-size: 14px;
+  outline: 1px solid #10141a;
+}
+.login__container__form__input:focus {
+  outline-color: white;
+}
+.login__container__form__info {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+.login__container__form__button {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 0em 1em;
+  border: none;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login__container__form__button__base {
+  margin-top: 1.5em;
+  background-color: #1db954;
+}
+.login__container__form__button__base:hover {
+  background-color: darken(#1ed760, 20%);
+}
+.login__container__form__button__google {
+  background-color: #4285f4;
+}
+.login__container__form__button__google:hover {
+  background-color: darken(#4285f4, 10%);
+}
+.login__container__form__button__guest {
+  background-color: #10141a;
+}
+.login__container__form__button__guest:hover {
+  background-color: darken(#10141a, 5%);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 40rem #10141a inset;
+}
+@media (max-width: 500px) {
+  .login__container__form {
+    padding: 2em 1.5em;
+  }
+}

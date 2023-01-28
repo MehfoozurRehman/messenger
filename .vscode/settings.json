@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/client/router": true,
+    "**/client/main.tsx": true,
+    "**/client/index.ts": true,
+    "**/client/tsconfig.json": true,
+    "**/client/vite.config.ts": true,
+    "**/client/.prettierignore": true,
+    "**/client/export.config.ts": true,
+    "**/client/postcss.config.js": true
+  }
+}
