@@ -1,7 +1,16 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Index() {
+  const navigate = useNavigate();
   return (
     <div className="login__container">
-      <form className="login__container__form">
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          navigate("/chatRoom", { replace: true });
+        }}
+        className="login__container__form"
+      >
         <svg
           id="B"
           xmlns="http://www.w3.org/2000/svg"

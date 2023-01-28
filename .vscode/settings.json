@@ -1,7 +1,7 @@
 {
   "files.exclude": {
-    "**/client/router": true,
-    "**/client/main.tsx": true,
+    "**/client/src/router": true,
+    "**/client/src/main.tsx": true,
     "**/client/index.ts": true,
     "**/client/tsconfig.json": true,
     "**/client/vite.config.ts": true,
